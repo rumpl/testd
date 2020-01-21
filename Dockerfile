@@ -1,5 +1,6 @@
-ARG MESSAGE="hello"
 FROM alpine
+
+ARG MESSAGE="hello"
 
 RUN echo $MESSAGE
 
