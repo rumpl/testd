@@ -4,4 +4,4 @@ ARG MESSAGE
 
 RUN echo $MESSAGE
 
-ENTRYPOINT [ "echo", "asdf" ]
+ENTRYPOINT [ "echo", $MESSAGE ]
