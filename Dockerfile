@@ -1,3 +1,6 @@
+ARG MESSAGE="hello"
 FROM alpine
 
-ENTRYPOINT [ "echo", "hello" ]
+RUN echo $MESSAGE
+
+ENTRYPOINT [ "echo", "asdf" ]
